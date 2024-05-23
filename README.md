@@ -27,9 +27,6 @@ theres initall two links you can press, `Enqueue` to enqueue an person and `Dequ
 
 while i chose this example for a use case, you can also use the api to enqueue/dequeue any type of data you want.
 
-```bash
-
 then you can open your browser and go to `http://localhost:3000` to test the queue.
-```
 
 ## peace :P
