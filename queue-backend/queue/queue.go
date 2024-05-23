@@ -46,10 +46,6 @@ func (q *Queue) Enqueue(data interface{}) {
     q.Tail = newNode
 }
 
-func (q *Queue) Size() int {
-	return q.size
-}
-
 func (q *Queue) Dequeue() (interface{}, error) {
     q.mu.Lock()
     defer q.mu.Unlock()
